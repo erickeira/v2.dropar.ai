@@ -1,0 +1,143 @@
+.subtitle {
+    font-size: 20px;
+    color: #707070;
+}
+
+.boxHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button {
+    margin-left: 10;
+}
+
+.notifications {
+    margin-top: 40px;
+}
+
+.item {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.itemTitle {
+    font-size: 16px;
+}
+
+.itemTitleAction {
+    color: #5C299C;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.itemDate {
+    font-size: 14px;
+    color: #595959;
+}
+
+.itemLeftSide {
+    display: flex;
+    align-items: center;
+    gap: 10;
+}
+
+.headerNotifications {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.headerNotificationsTitle {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.carrousel {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.itemImage {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.amountDrops {
+    border: 1px solid #F0F0F0;
+    padding: 24px;
+    border-radius: 8px;
+}
+
+.boxes {
+    margin-top: 10px!important;
+}
+
+.amountDrops h5 {
+    margin-top: 10px;
+}
+
+.amountDropsInfos {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    min-height: 100px;
+}
+
+.amountDropsInfos h4 {
+    color: #A863FF;
+    font-weight: bold;
+}
+
+.amountIcons {
+    border: 1px solid #F0F0F0;
+    padding: 24px;
+    border-radius: 8px;
+}
+
+.amountIconsInfos {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    min-height: 100px;
+}
+
+.amountIconsInfos h5 {
+    margin-top: 10px;
+}
+
+.amountIconsInfos h4 {
+    color: #FF599F;
+    font-weight: bold;
+}
+
+.boxTitle {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.amountIconsInfosLink {
+    color: #FF599F;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+@media (max-width: 900px) {
+    .boxHeader {
+        display: grid;
+    }
+    .boxTitle {
+        display: grid;
+    }
+}

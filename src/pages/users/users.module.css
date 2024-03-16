@@ -1,0 +1,114 @@
+.boxInfos {
+    border: 1px solid #F0F0F0;
+    border-radius: 8px;
+    padding: 30px;
+}
+
+.boxInfos img {
+    width: 50px;
+}
+
+.active {
+    color: #065F46;
+}
+
+.active b {
+    font-size: 24px;
+}
+
+.inactive {
+    color: #991B1B;
+}
+
+.inactive b {
+    font-size: 24px;
+}
+
+.infos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.subtitle {
+    color: #707070;
+}
+
+.boxHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.boxTable {
+    margin-top: 20px;
+    border-radius: 8px;
+    border: 1px solid #F0F0F0;
+}
+
+.boxTable table {
+    box-shadow: none;
+    border: none;
+    border-top: 1px solid #F0F0F0;
+}
+
+.boxTitleTable {
+    display: flex;
+    align-items: center;
+    padding: 14px;
+    gap: 10px;
+}
+
+.tableHead {
+    background-color: #FFEEF5;
+}
+
+.viewStores {
+    color: #5C299C;
+    text-decoration: underline;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.modalStoreHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.divider {
+    margin-top: 20px!important;
+    margin-bottom: 20px!important;
+}
+
+.store {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    border-radius: 8px;
+    border-bottom: 4px solid #9643FF;
+    padding: 10px;
+}
+
+.store img {
+    width: 100px;
+}
+
+.contentDelete {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.inactve {
+    color: #991B1B;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}

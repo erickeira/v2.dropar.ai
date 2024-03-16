@@ -1,0 +1,32 @@
+.boxTable {
+    margin-top: 20px;
+    border-radius: 8px;
+    border: 1px solid #F0F0F0;
+}
+
+.boxTable table {
+    box-shadow: none;
+    border: none;
+    border-top: 1px solid #F0F0F0;
+}
+
+.boxTitleTable {
+    display: flex;
+    align-items: center;
+    padding: 14px;
+    gap: 10px;
+}
+
+.boxHeaderTable {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px;
+    gap: 10px;
+}
+
+@media (max-width: 900px) {
+    .boxHeaderTable {
+        display: grid;
+    }
+}

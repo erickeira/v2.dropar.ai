@@ -1,0 +1,10 @@
+.subtitle {
+    color: #707070;
+}
+
+.boxHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
